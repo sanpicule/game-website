@@ -156,12 +156,17 @@ header .book-close-btn.active {
   width: 100%;
 }
 
+.sale img:hover {
+  transform: scale(1.1);
+}
+
 .card-effect {
   box-shadow: var(--box-shadow);
 }
 
 .game-card {
   background-color: white;
+  overflow: hidden;
 }
 
 .game-card h5 {
